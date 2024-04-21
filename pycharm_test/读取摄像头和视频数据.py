@@ -2,9 +2,9 @@ import cv2
 # 打开摄像头
 cv2.namedWindow('video', cv2.NORM_HAMMING)
 # 如果打开失败，不会报错
-# cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(0)
 # 如果打开视频，就加入视频的地址就可以了
-cap = cv2.VideoCapture('./MC.mp4')
+# cap = cv2.VideoCapture('./MC.mp4')
 
 # 循环读取每一帧
 while True:
